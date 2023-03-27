@@ -92,21 +92,21 @@ article > ul > li {
 }
 
 .article-bg {
+  padding-top: 150px;
   background: var(--p0);
 }
 
 .article-test { 
-  display: grid;
-  place-items: end;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
 }
 
 .founder-img {
-  z-index: 0;
+  max-width: 400px;
   position: absolute;
-  max-width: 450px !important;
   left: 150px;
-  top: -25px;
+  top: -50px;
 }
 
 .article-test-content {
@@ -114,7 +114,7 @@ article > ul > li {
   z-index: 1;
   display: grid;
   gap: 30px;
-  max-width: 730px;
+  max-width: 600px;
   background: var(--p1);
   color: var(--p0);
   padding: 60px;
