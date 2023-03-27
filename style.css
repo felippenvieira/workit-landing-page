@@ -18,6 +18,7 @@ header {
   /* border-bottom-left-radius: 600px 50px;
   border-bottom-right-radius: 600px 50px; */
   box-shadow: inset 0em -10em var(--p4);
+  overflow: hidden;
 }
 
 .main-bg::before{
